@@ -1,0 +1,22 @@
+.texto p{
+    font-family: Andale Mono, monospace;
+    font-size: 20px;
+    color: #ffffff;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    text-shadow:2px 4px 2px rgb(0, 0, 0);
+    font-weight: bold;
+}
+.anuncio {
+    font-family: Andale Mono, monospace;
+    font-size: 7px;
+    color: #ffffff;
+    position: absolute;
+    bottom:10px; 
+    left:50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,55 @@
+.download {
+  position: absolute; 
+  top: 50%;
+  left:50%;
+  transform: translate(-50% , -50%);
+}
+
+.mobile {
+  margin-left: 10px;
+    border-radius: 4px;
+    -webkit-box-shadow: 2px 2px 4px #000000;
+    -moz-box-shadow: 2px 2px 4px #000000;
+    box-shadow: 2px 2px 4px #000000;
+    font-family: Arial;
+    color: #000000;
+    font-size: 29px;
+    background: #fff200;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  .mobile:hover {
+    background: #ffffff;
+    text-decoration: none;
+  }
+
+  .desktop {
+    margin-left: auto;
+    border-radius: 4px;
+    -webkit-box-shadow: 2px 2px 4px #000000;
+    -moz-box-shadow: 2px 2px 4px #000000;
+    box-shadow: 2px 2px 4px #000000;
+    font-family: Arial;
+    color: #000000;
+    font-size: 29px;
+    background: #fff200;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  .desktop:hover {
+    background: #ffffff;
+    text-decoration: none;
+  }
+
+  .download h1 {
+    font-family: Andale Mono, monospace;
+    font-size: 38px;
+    color: #ffffff; 
+    text-align: center;
+    text-shadow:2px 4px 2px rgb(0, 0, 0);
+    margin-bottom: 88px;
+  }
